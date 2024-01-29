@@ -9,9 +9,11 @@ export default function Home(props) {
   return (
     <div className="container w-[80%] mx-auto mt-10">
       <Head>
-        <title>Cooking Blog v2</title>
+        <title>Cooking Blog</title>
       </Head>
-      <h1 className="text-green-700 text-3xl font-bold my-12">Cooking Blog</h1>
+      <h1 className="text-green-700 text-3xl font-bold my-12">
+        Cooking Blog v2
+      </h1>
       {props.posts.length > 0 ? (
         <div className="md:grid md:grid-cols-3 gap-8">
           {props.posts.map((post, index) => (
