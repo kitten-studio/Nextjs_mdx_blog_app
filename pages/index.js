@@ -12,7 +12,7 @@ export default function Home(props) {
         <title>Cooking Blog</title>
       </Head>
       <h1 className="text-green-700 text-3xl font-bold my-12">
-        Cooking Blog v2
+        Cooking Blog v3
       </h1>
       {props.posts.length > 0 ? (
         <div className="md:grid md:grid-cols-3 gap-8">
